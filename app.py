@@ -9,5 +9,4 @@ gr.Interface.from_pipeline(pipe,
                            title="Image Classification",
                            description="Object Recognition using Microsoft BEIT",
                            examples = ['egyptian_cat.jpg', 'German_shepherd.jpg',],
-                           article = "Author: <a href=\"https://huggingface.co/jye9\">Jianlin</a>",
                            ).launch()
